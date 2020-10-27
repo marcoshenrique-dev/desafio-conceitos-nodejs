@@ -17,12 +17,12 @@ A ideia da aplicação é ser um armazenador de repositórios
    title, url, techs
    { id: "uuid", title: 'Desafio Node.js', url: 'http://github.com/...', techs: ["Node.js", "..."], likes: 0 }
 
--> POST LIKE
+-> POST LIKE ✔️
 
    recebendo a URL - /repositories/:id/like
    like = like + 1
 
 
--> DELETE
+-> DELETE ✔️
 
    recebendo a URL - /repositories/:id
